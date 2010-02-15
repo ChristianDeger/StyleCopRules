@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SourceAnalyzer Name="OwnRules">
+  <Description>
+    Own Custom Rules
+  </Description>
+  <Rules>
+    <RuleGroup Name="OwnRules">
+      <Rule Name="PrivateFieldNameMustStartWithUnderscoreFollowedByLowerCase" CheckId="CD1001">
+        <Context>Private field names must start with an underscore followed by a lower-case letter.</Context>
+        <Description>Private field names must start with an underscore character.</Description>
+      </Rule>
+    </RuleGroup>
+  </Rules>
+</SourceAnalyzer>
